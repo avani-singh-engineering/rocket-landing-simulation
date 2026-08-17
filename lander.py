@@ -9,7 +9,7 @@ while altitude > 0:
         thrust = 0.0
      elif thrust > 4:
         thrust = 4.0
-     if fuel <= 0
+     if fuel <= 0:
         print('Out of fuel')
      fuel = fuel - thrust
      acceleration = gravity - thrust
